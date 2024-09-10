@@ -23,13 +23,14 @@ main > header{
    margin: 10px ;
 }
 table{
-    
+    height: 100%;
+    border: 2px solid red;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
 .operacao{
-    width: 25%;
+    width: 2%;
     border: 1px solid black;
     
 }

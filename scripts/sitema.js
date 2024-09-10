@@ -13,7 +13,7 @@ function mostrar(){
         n1 = Math.floor(Math.random()*10)+1
         alert(`Só são aceitos números iguais ou maiores que um\nFoi conciderado o número ${NumSten[n1]}`)
     }
-    for(let ia = 1; ia < 10; ia++){
+    for(let ia = 1; ia < 11; ia++){
         div = Math.floor(n1 / ia)
 
         if(Math.floor(ia / n1) == Infinity)

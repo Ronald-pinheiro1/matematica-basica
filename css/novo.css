@@ -1,6 +1,7 @@
 /* Estilos globais */
 html {
     font-size: 16px; /* Define o tamanho de fonte base */
+    text-align: center;
   }
   
   body {
@@ -33,15 +34,6 @@ html {
     text-align: center;
   }
   
-  /* Estilos para as células da tabela */
-  .operacao {
-    /* ... outros estilos para as células ... */
-  }
-  
-  /* Estilos para o input */
-  input {
-    /* ... estilos para o input ... */
-  }
   
   /* Media query para telas menores */
   @media (max-width: 768px) {

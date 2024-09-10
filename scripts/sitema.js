@@ -1,18 +1,19 @@
 let num1 = document.getElementById('num1')
 let resp = document.querySelector('tbody.saida')
+let NumSten = ["um", "dois", "três","quatro","cinco","seis", "sete","oito","nove","dez"]
 let div
 function mostrar(){
     resp.innerHTML = ''
     let n1 = Number(num1.value)
     if(n1 > 10){
         n1 = Math.floor(Math.random()*11)
-        alert(`Só são aceitos numeros iguais ou menores que dez\nFoi conciderado o numero ${n1}`)
+        alert(`Só são aceitos numeros iguais ou menores que dez\nFoi conciderado o numero ${NumSten[n1]}`)
     }
-    if(n1<0){
+    if(n1<1){
         n1 = Math.floor(Math.random()*11)
-        alert(`Só são aceitos números iguais ou maiores que zero\nFoi conciderado o número ${n1}`)
+        alert(`Só são aceitos números iguais ou maiores que zero\nFoi conciderado o número ${NumSten[n1+1]}`)
     }
-    for(let ia = 1; ia < 11; ia++){
+    for(let ia = 1; ia < 10; ia++){
         div = Math.floor(n1 / ia)
 
         if(Math.floor(ia / n1) == Infinity)

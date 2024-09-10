@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    font-size: larger;
+}
+
+main{
+    background-color: orange;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 80%;
+    border-radius: 10px;
+    width: 100%;
+}
+main > header{
+   width: 98%;
+   margin: 10px ;
+}
+table{
+    width: 100%;
+}
+.operacao{
+    border: 1px solid black;
+    
+}
+
+input{
+    width: 70px;
+    margin: 1%;
+}

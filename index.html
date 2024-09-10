@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/sistema.css">
+    <title>Tabuadoa</title>
+    
+</head>
+<body>
+    <main>
+        <header>
+            <h1>operações básicas</h1>
+            <p>As quatro operações básicas da Matmática</p>
+        </header>
+        
+        <section id="entrada">
+            <label for="num1"><strong>Número da Tabuada</strong></label>
+            <input type="number" name="nome" id="num1" oninput="mostrar()" max="10" min="0" autofocus>
+            <label for="num2"></label>
+        </section>
+        <table>
+            <thead class="saida">
+                <th class="operacao">Soma</th>
+                <th class="operacao">Subtração</th>
+                <th class="operacao">Multiplicação</th>
+                <th class="operacao">Divisão</th>
+            </thead>
+            <tbody class="saida">
+               <td class="operacao">Resposta Aqui</td>
+               <td class="operacao">Resposta Aqui</td>
+               <td class="operacao">Resposta Aqui</td>
+               <td class="operacao">Resposta Aqui</td>
+            </tbody>
+           
+        </table>
+        <footer>
+            <p>
+               &copy;Ronald Pinheiro, Setembro de 2024 
+            </p>
+    </footer>
+    </main>
+    <script src="scripts/sitema.js">
+    </script>
+</body>
+</html>

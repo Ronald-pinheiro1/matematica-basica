@@ -4,10 +4,8 @@ html{
 }
 body{
     font-size: larger;
-    font-family: Arial, sans-serif;
     margin: 0.5;
     padding: 0;
-    box-sizing: border-box;
 }
 
 main{
@@ -25,12 +23,13 @@ main > header{
    margin: 10px ;
 }
 table{
-    width: 98%;
+    
     border-collapse: collapse;
     margin-top: 20px;
 }
 
 .operacao{
+    width: 25%;
     border: 1px solid black;
     
 }

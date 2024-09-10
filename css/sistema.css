@@ -43,13 +43,3 @@ input{
     width: 70px;
     margin: 1%;
 }
- /* Media query para telas menores */
- @media (max-width: 768px) {
-    /* Ajustes para telas menores */
-    main {
-      padding: 10px;
-    }
-    table {
-      font-size: 0.9em;
-    }
-  }

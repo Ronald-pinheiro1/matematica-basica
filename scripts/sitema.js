@@ -5,7 +5,7 @@ function mostrar(){
     resp.innerHTML = ''
     let n1 = Number(num1.value)
     if(n1 > 10){
-        n1 = Math.floor(Math.random()*10)
+        n1 = Math.floor(Math.random()*11)
         alert(`Só são aceitos numeros iguais ou menores que dez\nFoi conciderado o numero ${n1}`)
     }
     if(n1<0){

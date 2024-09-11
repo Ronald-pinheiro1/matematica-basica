@@ -1,7 +1,7 @@
 let num1 = document.getElementById('num1')
 let resp = document.querySelector('tbody.saida')
 let tela = document.getElementById('dimensoes')
-let NumSten = ["zer0","um", "dois", "três","quatro","cinco","seis", "sete","oito","nove","dez"]
+let NumSten = ["zero","um", "dois", "três","quatro","cinco","seis", "sete","oito","nove","dez"]
 let div
 function mostrar(){
     resp.innerHTML = ''
@@ -23,4 +23,4 @@ function mostrar(){
         resp.innerHTML += `<td class="operacao">${n1} + ${ia} = ${ia + n1}</td><td class="operacao">${n1} - ${ia} = ${n1 - ia}</td><td  class="operacao">${n1} x ${ia} = ${ia * n1}</td><td  class="operacao">${n1} / ${ia} = ${div}</td>`
     }
 }
-tela.innerHTML+= `Resolução da tela : <i>altura <strong>${screen.availWidth}</strong> X largura <strong>${screen.availHeight}</strong></i> `
+tela.innerHTML+= `Resolução da tela : <i>largura<strong>${screen.availWidth}px</strong> X altura: <strong>${screen.availHeight = 772}px</strong></i> `

@@ -23,4 +23,4 @@ function mostrar(){
         resp.innerHTML += `<td class="operacao">${n1} + ${ia} = ${ia + n1}</td><td class="operacao">${n1} - ${ia} = ${n1 - ia}</td><td  class="operacao">${n1} x ${ia} = ${ia * n1}</td><td  class="operacao">${n1} / ${ia} = ${div}</td>`
     }
 }
-tela.innerHTML+= `Resolução da tela : <i>largura<strong>${screen.availWidth}px</strong> X altura: <strong>${screen.availHeight = 772}px</strong></i> `
+
